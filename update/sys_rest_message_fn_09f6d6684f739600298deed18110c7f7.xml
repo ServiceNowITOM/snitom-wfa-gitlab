@@ -5,19 +5,19 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <content/>
+        <content>note=${comment}&amp;path=${filePath}&amp;line=${lineNumber}&amp;line_type=${lineType}</content>
         <function_name>post</function_name>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>https://${gitlabIP}/projects/${projectId}/repository/commits/${commitId}/comments</rest_endpoint>
+        <rest_endpoint>https://${gitlabIP}/api/v3/projects/${projectId}/repository/commits/${commitId}/comments</rest_endpoint>
         <rest_message display_value="Gitlab Management - Commit Comments">9438c58b4f671600298deed18110c7b5</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-05-31 23:52:37</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>09f6d6684f739600298deed18110c7f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>post</sys_name>
         <sys_package display_value="Gitlab Management" source="x_snc_gitlab">fbf0eaa213efd200913abcc32244b04a</sys_package>
         <sys_policy/>
@@ -25,7 +25,7 @@
         <sys_scope display_value="Gitlab Management">fbf0eaa213efd200913abcc32244b04a</sys_scope>
         <sys_update_name>sys_rest_message_fn_09f6d6684f739600298deed18110c7f7</sys_update_name>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-05-31 23:52:37</sys_updated_on>
+        <sys_updated_on>2016-06-01 01:14:26</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
